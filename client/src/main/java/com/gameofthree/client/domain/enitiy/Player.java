@@ -13,6 +13,7 @@ import org.springframework.messaging.simp.stomp.StompSession;
 import com.gameofthree.client.domain.handler.ClientSessionHandler;
 import com.gameofthree.client.domain.model.GameState;
 import com.gameofthree.client.domain.model.PlayerType;
+import com.gameofthree.client.domain.model.PlayerTypeHelper;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -46,7 +47,7 @@ public class Player {
 
 	protected void setPlayerType(String userMessage) throws IOException {
 		String playerType = null;
-		while (playerType == null || (!(Arrays.asList("M", "A").contains(playerType)))) {
+		while (playerType == null || (!(PlayerTypeHelper.getStringValues().contains(playerType)))) {
 			logger.info(userMessage);
 			InputStreamReader inStream = new InputStreamReader(System.in);
 			BufferedReader stdin = new BufferedReader(inStream);
