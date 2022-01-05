@@ -25,7 +25,8 @@ Game Of three App
 <br>
 <span style="color:blue">M</span>
 <hr />
-<span style="color:blue;">second player:</span>
+<span style="color:blue;">Second player:</span>
+<br/>
 open another terminal  repeat the "this for the client steps" to add another player
 you will be prompted to enter the same details
 <br/>
