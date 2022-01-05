@@ -14,7 +14,7 @@ Game Of three App
 			docker run -i -t testtakeaway/gameofthreeclient --net=bridge
 
 <h4 style="color:red;font-size:14px">======= Game Started : =======</h4>
-<p style="font-size:12px;color:black">
+<p style="font-size:12px;">
 <span style="color:blue;">First player:</span>
 <br />
  Enter your Name :
@@ -25,6 +25,7 @@ Game Of three App
 <br>
 <span style="color:blue">M</span>
 <hr />
+<span style="color:blue;">First player:</span>
 open another terminal  repeat the "this for the client steps" to add another player
 you will be prompted to enter the same details
 <br/>
