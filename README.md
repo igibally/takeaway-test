@@ -16,7 +16,7 @@ The same rules are applied until one player reaches the number 1(after the divis
 			docker run -p 8085:8085 <imageId> --net=gameofthree --name=gameofthreeserver
 -------------------------------------------------------------------------------------------------------------------------------
 	2- Run  The client (the player)  
-		1- build docker client image
+		1- pull docker client image
 			docker pull igibally/gameofthree_client:gameofthreeclient-latest-update.
 		2- run docker client 
 			docker run -i -t testtakeaway/gameofthreeclient --net=bridge
@@ -43,11 +43,11 @@ Send the first number then the other player will be received it and respond back
 <br/>
 Thank you
 -------------------------------------------------------------------------------------------------------------------------------
-the technologie Used
+the technologies Used
 1- java for client and server
-2-  Spring boot Framework’s messaging module
+2-  Spring boot Framework’s Integration Module
 3- using terminal to collect the input from use
-4- communication between client and server established by the using STOMP (Simple Text Orientated Messaging Protocol)
+4- communication between client and server established by the using STOMP (Simple Text Orientated Messaging Protocol) over a websocket Client
 -------------------------------------------------------------------------------------------------------------------------------
 </p>
 
