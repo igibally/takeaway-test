@@ -52,7 +52,7 @@ Technologies used
 <br>
 2-  Spring boot Framework’s Integration Module
 <br>	
-3- using terminal to collect the input from use
+3- using terminal to collect the input from user
 <br>
 4- communication between client and server established by the using STOMP (Simple Text Orientated Messaging Protocol) over a websocket Client
 <br/>
