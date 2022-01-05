@@ -5,15 +5,17 @@ First create the network between them
 docker network create gameofthree
 --------------------------------------
 1-build the docker image for server
-	1- This is for serever run:
-		docker pull igibally/gameofthree_server:gameofthreeserver-lastupdate
+	1- This is for serever
+		1-build the docker server image
+			docker build --build-arg JAR_FILE=gameofthreeserver-0.1.jar -t testtakeaway/gameofthreeserver .
 		2- run docker continer for A server
-			docker run -p 8085:8085 <imageId> --net=gameofthree --name=gameofthreeserver
+			docker run -p 8085:8085 testtakeaway/gameofthreeserver --net=gameofthree --name=gameofthreeserver
 -------------------------------------------------------------------------------------------------------------------------------
 	2- This is for client  
-		docker pull igibally/gameofthree_client:gameofthreeclient-latest-update
+		1-  build docker client image
+			docker build --build-arg JAR_FILE=gameofthreeclient-0.1.jar -t testtakeaway/gameofthreeclient .
 		2- run docker client 
-			docker run -i -t <imageId> --net=gameofthree
+			docker run -i -t testtakeaway/gameofthreeclient --net=gameofthree
 
 2- :  ======= Game Started : =======
 <br />
