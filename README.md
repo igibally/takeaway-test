@@ -41,7 +41,9 @@ you will be prompted to enter the same details Name and Type
 Then you will prompeted to add the first starting number
 Send the first number then the other player will be received it and respond back to you
 <br/>
-Thank you
+</p>
+<p>
+<hr/>
 -------------------------------------------------------------------------------------------------------------------------------
 the technologies Used
 1- java for client and server
@@ -50,4 +52,5 @@ the technologies Used
 4- communication between client and server established by the using STOMP (Simple Text Orientated Messaging Protocol) over a websocket Client
 -------------------------------------------------------------------------------------------------------------------------------
 </p>
+
 
