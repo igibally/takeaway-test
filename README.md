@@ -57,6 +57,7 @@ Technologies used
 4- communication between client and server established by the using STOMP (Simple Text Orientated Messaging Protocol) over a websocket Client
 <br/>
 5- application dockerized using docker, the images for client and server are deployed on docker hub.
+<br/>
 -------------------------------------------------------------------------------------------------------------------------------
 </p>
 
