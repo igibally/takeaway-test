@@ -13,26 +13,21 @@ Game Of three App
 		2- run docker client 
 			docker run -i -t testtakeaway/gameofthreeclient --net=bridge
 
-<h4 color="red">======= Game Started : =======</h4>
+<h4 style="color:red;font-size:14px">======= Game Started : =======</h4>
 <p style="font-size:12px;color:black">
+<span style="color:blue;">First player:</span>
 <br />
-Enter your Name :
+ Enter your Name :
 <br>
-Islam
+<span style="color:blue">Islam</span>
 <br />
-Enter your Type : {Manual:(M) | Automatic:(A)} choose A for Automatic M for Manual
+2- Enter your Type : {Manual:(M) | Automatic:(A)} choose A for Automatic M for Manual
 <br>
-M
-<br />
-3- Then go and repeat the "this for the client steps" to add another player
+<span style="color:blue">M</span>
+<hr />
+open another terminal  repeat the "this for the client steps" to add another player
 you will be prompted to enter the same details
-<br />
-Enter your Name :
-Ali
 <br/>
-Enter your Type : {Manual:(M) | Automatic:(A)} choose A for Automatic M for Manual
-M
-<br />
 Then you will prompeted to add the first starting number
 Send the first number then the other player will be received it and respond back to you
 <br/>
