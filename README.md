@@ -13,7 +13,7 @@ The same rules are applied until one player reaches the number 1(after the divis
 		1-  pull image from docker hub
 			docker pull igibally/gameofthree_server:gameofthreeserver-lastupdate
 		2- run docker server 
-			docker run -p 8085:8085 <imageId> --net=gameofthree --name=gameofthreeserver
+			docker run -p 8085:8085 <imageId> --net=bridge --name=gameofthreeserver
 -------------------------------------------------------------------------------------------------------------------------------
 	2- Run  the client (the player)  
 		1- pull docker client image
