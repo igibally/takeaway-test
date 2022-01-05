@@ -27,6 +27,7 @@ you will be prompted to enter the same details
 <br />
 Enter your Name :
 Ali
+<br/>
 Enter your Type : {Manual:(M) | Automatic:(A)} choose A for Automatic M for Manual
 M
 <br />
