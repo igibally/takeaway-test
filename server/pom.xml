@@ -63,6 +63,7 @@
 							<artifactId>lombok</artifactId>
 						</exclude>
 					</excludes>
+				  <outputDirectory>.</outputDirectory>
 				</configuration>
 			</plugin>
 		</plugins>
