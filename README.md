@@ -19,7 +19,7 @@ The same rules are applied until one player reaches the number 1(after the divis
 		1- pull docker client image
 			docker pull igibally/gameofthree_client:gameofthreeclient-latest-update.
 		2- run docker client 
-			docker run -i -t testtakeaway/gameofthreeclient --net=bridge
+			docker run -i -t <imageId> --net=bridge
 
 <h4 style="color:red;font-size:14px"> ======= Game Started : =======</h4>
 <p style="font-size:12px;">
@@ -55,7 +55,8 @@ Technologies used
 3- using terminal to collect the input from use
 <br>
 4- communication between client and server established by the using STOMP (Simple Text Orientated Messaging Protocol) over a websocket Client
-<br/>	
+<br/>
+5- application dockerized using docker the image for client and server are deployed on docker hub.
 -------------------------------------------------------------------------------------------------------------------------------
 </p>
 
