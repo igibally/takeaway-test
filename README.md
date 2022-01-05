@@ -35,7 +35,7 @@ The same rules are applied until one player reaches the number 1(after the divis
 <hr />
 <span style="color:blue;">Second player:</span>
 <br/>
-repeat the steps of " Run The steps client (the player) " again, to add another player
+repeat the step of " run docker client " again, to add another player
 you will be prompted to enter the same details Name and Type
 <br/>
 Then you will prompeted to add the first starting number
