@@ -42,14 +42,20 @@ Then you will prompeted to add the first starting number
 Send the first number then the other player will be received it and respond back to you
 <br/>
 </p>
-<p>
 <hr/>
--------------------------------------------------------------------------------------------------------------------------------
-the technologies Used
+<p>
+Technologies used
+<br/>
+------------------------------------------------------------
+<br/>
 1- java for client and server
+<br>
 2-  Spring boot Framework’s Integration Module
+<br>	
 3- using terminal to collect the input from use
+<br>
 4- communication between client and server established by the using STOMP (Simple Text Orientated Messaging Protocol) over a websocket Client
+<br/>	
 -------------------------------------------------------------------------------------------------------------------------------
 </p>
 
