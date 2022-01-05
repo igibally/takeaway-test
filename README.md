@@ -1,11 +1,11 @@
 # takeaway-test
 Game Of three App
 ------------------------------------------------------------
-	2- This is for client  
-		1-  build docker client image
-			docker build --build-arg JAR_FILE=gameofthreeclient-0.1.jar -t testtakeaway/gameofthreeclient .
-		2- run docker client 
-			docker run -i -t testtakeaway/gameofthreeclient --net=bridge
+	2- This is for server  
+		1-  pull image from docker hub
+			docker pull igibally/gameofthree_server:gameofthreeserver-lastupdate
+		2- run docker server 
+			docker run -p 8085:8085 <imageId> --net=gameofthree --name=gameofthreeserver
 -------------------------------------------------------------------------------------------------------------------------------
 	2- This is for client  
 		1-  build docker client image
