@@ -42,4 +42,12 @@ Then you will prompeted to add the first starting number
 Send the first number then the other player will be received it and respond back to you
 <br/>
 Thank you
+-------------------------------------------------------------------------------------------------------------------------------
+the technologie Used
+1- java for client and server
+2-  Spring boot Framework’s messaging module
+3- using terminal to collect the input from use
+4- communication between client and server established by the using STOMP (Simple Text Orientated Messaging Protocol)
+-------------------------------------------------------------------------------------------------------------------------------
 </p>
+
