@@ -15,7 +15,7 @@ The same rules are applied until one player reaches the number 1(after the divis
 		2- run docker server 
 			docker run -p 8085:8085 <imageId> --net=gameofthree --name=gameofthreeserver
 -------------------------------------------------------------------------------------------------------------------------------
-	2- Run  The client (the player)  
+	2- Run  the client (the player)  
 		1- pull docker client image
 			docker pull igibally/gameofthree_client:gameofthreeclient-latest-update.
 		2- run docker client 
@@ -56,7 +56,7 @@ Technologies used
 <br>
 4- communication between client and server established by the using STOMP (Simple Text Orientated Messaging Protocol) over a websocket Client
 <br/>
-5- application dockerized using docker the image for client and server are deployed on docker hub.
+5- application dockerized using docker, the images for client and server are deployed on docker hub.
 -------------------------------------------------------------------------------------------------------------------------------
 </p>
 
