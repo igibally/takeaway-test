@@ -9,19 +9,19 @@ between adding one of {-1, 0, 1} to get to a number that is divisible by 3. Divi
 resulting whole number is then sent back to the original sender.
 The same rules are applied until one player reaches the number 1(after the division).
 -------------------------------------------------------------------------------------------------------------------------------
-	2- This is for server  
+	1- Run the server   
 		1-  pull image from docker hub
 			docker pull igibally/gameofthree_server:gameofthreeserver-lastupdate
 		2- run docker server 
 			docker run -p 8085:8085 <imageId> --net=gameofthree --name=gameofthreeserver
 -------------------------------------------------------------------------------------------------------------------------------
-	2- This is for client  
+	2- Run  The client client (the player)  
 		1- build docker client image
 			docker pull igibally/gameofthree_client:gameofthreeclient-latest-update.
 		2- run docker client 
 			docker run -i -t testtakeaway/gameofthreeclient --net=bridge
 
-<h4 style="color:red;font-size:14px">======= Game Started : =======</h4>
+<h4 style="color:red;font-size:14px"> ======= Game Started : =======</h4>
 <p style="font-size:12px;">
 <span style="color:blue;">First player:</span>
 <br />
@@ -35,8 +35,8 @@ The same rules are applied until one player reaches the number 1(after the divis
 <hr />
 <span style="color:blue;">Second player:</span>
 <br/>
-open another terminal  repeat the "this for the client steps" to add another player
-you will be prompted to enter the same details
+repeat the steps of " Run The steps client (the player) " again, to add another player
+you will be prompted to enter the same details Name and Type
 <br/>
 Then you will prompeted to add the first starting number
 Send the first number then the other player will be received it and respond back to you
