@@ -1,18 +1,19 @@
 # takeaway-test
 Game Of three App
 -----------------------------
+First create the network between them
+docker network create gameofthree
+--------------------------------------
 1-build the docker image for server
-	1- This is for serever
-		1-build the docker server image
-			docker build --build-arg JAR_FILE=gameofthreeserver-0.1.jar -t testtakeaway/gameofthreeserver .
+	1- This is for serever run:
+		docker pull igibally/gameofthree_server:gameofthreeserver-lastupdate
 		2- run docker continer for A server
-			docker run -p 8085:8085 testtakeaway/gameofthreeserver --net=bridge --name=gameofthreeserver
+			docker run -p 8085:8085 <imageId> --net=gameofthree --name=gameofthreeserver
 -------------------------------------------------------------------------------------------------------------------------------
 	2- This is for client  
-		1-  build docker client image
-			docker build --build-arg JAR_FILE=gameofthreeclient-0.1.jar -t testtakeaway/gameofthreeclient .
+		docker pull igibally/gameofthree_client:gameofthreeclient-latest-update
 		2- run docker client 
-			docker run -i -t testtakeaway/gameofthreeclient --net=bridge
+			docker run -i -t <imageId> --net=gameofthree
 
 2- :  ======= Game Started : =======
 <br />
@@ -35,5 +36,4 @@ Then you will prompeted to add the first starting number
 Send the first number then the other player will be received it and respond back to you
 
 <br/>
-Happy Playing :)
-
+Thank you
